@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# React Native
+.expo/
+dist/
+web-build/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/Podfile.lock
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+.DS_Store
+
+# Android
+android/app/build/
+android/build/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/.gradle
+android/local.properties
+android/.idea
+android/*.iml
+android/app/release/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# macOS
+.DS_Store
+
+# Python virtual environment
+.venv/
+venv/
+
+# ML runtime artifacts (generated when the app runs)
+*.pkl
+*.pt
+*.db
+*.zip
+model_metrics.json
+MLP_churn*
+MLP_importance*
+MLP_metrics*
+MLP_training_*
+XGB_training_*
+tracked_features*
+trained_features*
+xgb_training_progress.json
+mlp_training_progress.json
+processed_churn_data.csv
+
+# Notebooks
+*.ipynb
+
+
