@@ -21,8 +21,6 @@ Most ML projects stop at a notebook. This project turns the model into a usable 
 ## Development Notes
 
 - Originally developed as a university capstone project
-- OpenAI tools were used during development to accelerate implementation and iteration
-- Claude was used during public-release sanitization and polishing
 
 ## Core Features
 
@@ -151,8 +149,8 @@ docker-compose.yml        Multi-service local deployment
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/willzhu16/churn_dashboard.git
-cd churn_dashboard
+git clone https://github.com/willzhu16/Churn-Prediction-Platform.git
+cd Churn-Prediction-Platform
 ```
 
 ### 2. Create environment files
