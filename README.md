@@ -258,6 +258,22 @@ Some representative backend routes:
 - Improve experiment management and model artifact versioning
 - Add CI/CD for linting, tests, and deployment
 
+## My Contributions
+
+This project was originally developed as part of a team capstone project. I was responsible for the core system design and the majority of the implementation, particularly on the backend and machine learning side.
+
+My contributions include:
+
+- Designing and implementing the backend API (Flask) for training, prediction, and data workflows
+- Building the machine learning pipeline, including preprocessing, feature handling, and model integration (XGBoost, PyTorch MLP)
+- Designing and integrating the PostgreSQL database schema for prediction batches and device-level data
+- Implementing end-to-end workflows for model training, batch prediction, and result persistence
+- Handling system integration across the ML pipeline, backend services, and database
+
+I had limited involvement in the frontend during initial development, but later contributed to integration and minor updates to support the training and prediction workflows.
+
+I also refined and sanitized the project into a portfolio-ready version.
+
 ## What this project demonstrates
 
 - Designing a production-style ML system, not just a model
